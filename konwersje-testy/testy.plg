@@ -1,0 +1,144 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\gabri\Desktop\konwersje testy\testy.uvproj
+Project File Date:  05/14/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+linking...
+.\testy.axf: Warning: L6665W: Neither Lib$$Request$$armlib Lib$$Request$$cpplib defined, not searching ARM libraries.
+.\testy.axf: Error: L6411E: No compatible library exists with a definition of startup symbol __main.
+".\testy.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+linking...
+Program Size: Code=904 RO-data=32 RW-data=8 ZI-data=1256  
+".\testy.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(52): error:  #7: unrecognized token
+main.c(52): error:  #29: expected an expression
+main.c(52): error:  #7: unrecognized token
+main.c(52): error:  #7: unrecognized token
+main.c(66): error:  #7: unrecognized token
+main.c(66): error:  #29: expected an expression
+main.c(66): error:  #7: unrecognized token
+main.c(66): error:  #7: unrecognized token
+main.c(86): error:  #20: identifier "EQUAL" is undefined
+main.c(86): warning:  #223-D: function "eCompareString" declared implicitly
+main.c(106): warning:  #223-D: function "eHexStringToUInt" declared implicitly
+main.c(117): warning:  #223-D: function "ReplaceCharactersInString" declared implicitly
+main.c(117): error:  #7: unrecognized token
+main.c(117): error:  #29: expected an expression
+main.c(117): error:  #7: unrecognized token
+main.c(117): error:  #7: unrecognized token
+".\testy.axf" - 13 Errors, 3 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(86): error:  #20: identifier "EQUAL" is undefined
+main.c(86): warning:  #223-D: function "eCompareString" declared implicitly
+main.c(106): warning:  #223-D: function "eHexStringToUInt" declared implicitly
+main.c(117): warning:  #223-D: function "ReplaceCharactersInString" declared implicitly
+".\testy.axf" - 1 Errors, 3 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(86): error:  #20: identifier "EQUAL" is undefined
+main.c(86): warning:  #223-D: function "eCompareString" declared implicitly
+main.c(106): warning:  #223-D: function "eHexStringToUInt" declared implicitly
+main.c(117): warning:  #223-D: function "ReplaceCharactersInString" declared implicitly
+".\testy.axf" - 1 Errors, 3 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(86): warning:  #223-D: function "eCompareString" declared implicitly
+main.c(106): warning:  #223-D: function "eHexStringToUInt" declared implicitly
+main.c(117): warning:  #223-D: function "ReplaceCharactersInString" declared implicitly
+linking...
+.\testy.axf: Error: L6218E: Undefined symbol ReplaceCharactersInString (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol eCompareString (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol eHexStringToUInt (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+".\testy.axf" - 4 Errors, 3 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(86): warning:  #223-D: function "eCompareString" declared implicitly
+main.c(106): warning:  #223-D: function "eHexStringToUInt" declared implicitly
+main.c(117): warning:  #223-D: function "ReplaceCharactersInString" declared implicitly
+linking...
+.\testy.axf: Error: L6218E: Undefined symbol ReplaceCharactersInString (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol eCompareString (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol eHexStringToUInt (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+".\testy.axf" - 4 Errors, 3 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(86): warning:  #223-D: function "eCompareString" declared implicitly
+main.c(106): warning:  #223-D: function "eHexStringToUInt" declared implicitly
+main.c(117): warning:  #223-D: function "ReplaceCharactersInString" declared implicitly
+linking...
+.\testy.axf: Error: L6218E: Undefined symbol ReplaceCharactersInString (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol eCompareString (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol eHexStringToUInt (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+".\testy.axf" - 4 Errors, 3 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(86): warning:  #223-D: function "eCompareString" declared implicitly
+main.c(106): warning:  #223-D: function "eHexStringToUInt" declared implicitly
+main.c(117): warning:  #223-D: function "ReplaceCharactersInString" declared implicitly
+linking...
+.\testy.axf: Error: L6218E: Undefined symbol ReplaceCharactersInString (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol eCompareString (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol eHexStringToUInt (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+".\testy.axf" - 4 Errors, 3 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(86): warning:  #223-D: function "eCompareString" declared implicitly
+main.c(106): warning:  #223-D: function "eHexStringToUInt" declared implicitly
+main.c(117): warning:  #223-D: function "ReplaceCharactersInString" declared implicitly
+linking...
+.\testy.axf: Error: L6218E: Undefined symbol ReplaceCharactersInString (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol eCompareString (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol eHexStringToUInt (referred from main.o).
+.\testy.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+".\testy.axf" - 4 Errors, 3 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(86): error:  #20: identifier "EQUAL" is undefined
+main.c(86): warning:  #223-D: function "eCompareString" declared implicitly
+main.c(106): warning:  #223-D: function "eHexStringToUInt" declared implicitly
+main.c(117): warning:  #223-D: function "ReplaceCharactersInString" declared implicitly
+".\testy.axf" - 1 Errors, 3 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(86): error:  #20: identifier "EQUAL" is undefined
+main.c(86): warning:  #223-D: function "eCompareString" declared implicitly
+main.c(106): warning:  #223-D: function "eHexStringToUInt" declared implicitly
+main.c(117): warning:  #223-D: function "ReplaceCharactersInString" declared implicitly
+".\testy.axf" - 1 Errors, 3 Warning(s).
+Target not created
