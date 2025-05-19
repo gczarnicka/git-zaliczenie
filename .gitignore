@@ -1,0 +1,15 @@
+# Pliki tymczasowe Keil
+*.plg
+*.uvgui.*
+*.dep
+*.o
+*.axf
+*.map
+*.lst
+*.hex
+*.bin
+
+# Foldery tymczasowe Keil
+Objects/
+Listings/
+BuildLog.htm
