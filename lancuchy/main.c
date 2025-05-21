@@ -62,4 +62,4 @@ int main() {
     ReplaceCharactersInString (pcString, 'g', 'b');
 }
 
-//zmiana
+//dopisana zmiana
