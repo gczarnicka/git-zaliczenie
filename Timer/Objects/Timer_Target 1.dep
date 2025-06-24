@@ -1,0 +1,11 @@
+Dependencies for Project 'Timer', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5030024::V5.03 [Build 24]::.\ARM_Compiler_5
+F (.\Startup.s)(0x559D3D30)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 538"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\main.c)(0x6446FC2B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="538"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (led.h)(0x6411B50C)
+I (timer.h)(0x64205D03)
+F (.\led.c)(0x6411B507)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="538"-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x559D3D78)
+I (led.h)(0x6411B50C)
+F (.\timer.c)(0x644705CD)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="538"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x559D3D78)
