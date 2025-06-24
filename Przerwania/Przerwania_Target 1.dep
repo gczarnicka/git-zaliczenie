@@ -1,0 +1,17 @@
+Dependencies for Project 'Przerwania', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559D3D30)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\main.c)(0x6463A50A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\gabri\Desktop\Przerwania\led.h)(0x6411D12C)
+I (C:\Users\gabri\Desktop\Przerwania\timer_interrupts.h)(0x6449905A)
+I (C:\Users\gabri\Desktop\Przerwania\keyboard.h)(0x6411CD54)
+F (.\timer.c)(0x644705CE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x00000000)
+F (.\led.c)(0x6411D128)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x00000000)
+I (C:\Users\gabri\Desktop\Przerwania\led.h)(0x6411D12C)
+F (.\timer_interrupts.c)(0x6449908A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\timer_interrupts.o --omf_browse .\objects\timer_interrupts.crf --depend .\objects\timer_interrupts.d)
+I (C:\Users\gabri\Desktop\Przerwania\timer_interrupts.h)(0x6449905A)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x00000000)
+F (.\keyboard.c)(0x6411CE1C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\keyboard.o --omf_browse .\objects\keyboard.crf --depend .\objects\keyboard.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x00000000)
+I (C:\Users\gabri\Desktop\Przerwania\keyboard.h)(0x6411CD54)
